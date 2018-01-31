@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.app.winklix.service_engg.Admistrative_MainActivity"
+    tools:showIn="@layout/app_bar_dash_board">
+
+    <LinearLayout
+        android:id="@+id/employee_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/progress_gray"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/empty"
+            android:text="There is no data to display"
+            android:textColor="@color/app_text_color_grey"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/dashboard_recycle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        ></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "279022155301",
+    "firebase_url": "https://serviceenginner.firebaseio.com",
+    "project_id": "serviceenginner",
+    "storage_bucket": "serviceenginner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279022155301:android:ccaaed0d30e46cf0",
+        "android_client_info": {
+          "package_name": "com.app.winklix.service_engg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279022155301-636cd4kmhu4mkfk7kdrekmbd3ivn5add.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAkEMYX_tCUSQIyP7MzOJyeseC6jpmTWs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

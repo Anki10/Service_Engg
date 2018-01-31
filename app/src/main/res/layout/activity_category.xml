@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context="com.app.winklix.service_engg.CategoryActivity">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:elevation="5dp"
+            android:src="@drawable/ccs_logo" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/user_type"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Services Engg"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_margin="1dp"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/admistrative_type"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admistrative"
+            android:layout_margin="1dp"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+
+</LinearLayout>
